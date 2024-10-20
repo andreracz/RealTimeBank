@@ -1,4 +1,4 @@
-# Talk to Yoyr Bank: uma aplicação do móduto GPT-4o Realtime do Azure OpenAI
+# Talk to Yoyr Bank: uma aplicação utilizando o modelo GPT-4o Realtime do Azure OpenAI
 
 Esse repositório é um exemplo de uso da API Realtime do GPT-4o em Azure. Ele foi baseado em um repositório de exemplo criado pela Microsoft, para [este artigo](https://aka.ms/voicerag).
 
@@ -32,8 +32,6 @@ Essa aplicação precisa saber quais serviços usar para o Azure OpenAI and Azur
 3. Crie um virtual environment de python e ative ele.
 4. Rode o seguinte comando no console para fazer o build do front:
 
-   Windows:
-
    ```pwsh
    cd app
    cd frontend
@@ -41,18 +39,8 @@ Essa aplicação precisa saber quais serviços usar para o Azure OpenAI and Azur
    npm run build
    ```
 
-   Linux/Mac:
-
-   ```bash
-   cd app
-   cd frontend
-   npm install
-   npm run build
-   ```
 5. Rode o seguinte comando no console para subir o servidor:
 
-   Windows:
-
    ```pwsh
    cd app
    cd backend
@@ -60,14 +48,6 @@ Essa aplicação precisa saber quais serviços usar para o Azure OpenAI and Azur
    python app.py
    ```
 
-   Linux/Mac:
-
-   ```bash
-   cd app
-   cd backend
-   pip install -r requirements.txt
-   python app.py
-   ```
 
 6. A aplicação deverá rodar em http://localhost:8765
 
