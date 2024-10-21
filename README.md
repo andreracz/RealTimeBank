@@ -1,10 +1,10 @@
-# Talk to Yoyr Bank: uma aplicação utilizando o modelo GPT-4o Realtime do Azure OpenAI
+# Talk to Your Bank: uma aplicação utilizando o modelo GPT-4o Realtime do Azure OpenAI
 
 Esse repositório é um exemplo de uso da API Realtime do GPT-4o em Azure. Ele foi baseado em um repositório de exemplo criado pela Microsoft, para [este artigo](https://aka.ms/voicerag).
 
 ![RTMTPattern](docs/RTMTPattern.png)
 
-## Rodando esse exempli
+## Rodando esse exemplo
 Segueiremos 3 passos para rodar o exemplo no seu ambiente: pre-requisitos, montar o ambiente e executar o app.
 
 ### 1. Pre-requisitos
